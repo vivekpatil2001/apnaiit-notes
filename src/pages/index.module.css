@@ -1,0 +1,86 @@
+.heroBanner {
+  text-align: center;
+}
+
+.cardContainer {
+  padding: 10px;
+  width: 12px;
+  
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background: hsl(300, 11%, 98%);
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.cardHeading {
+  font-size: 14px;
+  color: #333;
+ 
+}
+
+.cardLogo {
+  width: 32px; /* Logo size */
+  height: 32px;/* Optional for rounded logos */
+}
+
+.features {
+  /* padding: 12px 0; */
+  background-color: rgb(240, 226, 229);
+}
+
+.searchContainer {
+  position: relative;
+  margin: 20px auto;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 10px 40px 10px 20px;
+  border-radius: 25px;
+  border: 2px solid #ddd;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.searchInput:focus {
+  border-color: #888;
+}
+
+.searchIcon {
+  position: absolute;
+  right: 10px;
+  font-size: 18px;
+  color: #888;
+}
+
+@media (max-width: 768px) {
+  .col--4 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .col--4 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+  }
+}
