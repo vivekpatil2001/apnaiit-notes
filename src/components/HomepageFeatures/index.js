@@ -5,16 +5,17 @@ import styles from "./styles.module.css";
 const FeatureList = [
   {
     title: "Learn from Scratch",
-    imgSrc: "img/01.png",
+    imgSrc: "img/learn.png",
     description: (
       <>
-       Apna IIT is an open source project. You can contribute to the project and help others to learn.
+      Empower your learning with Apna IIT! From beginners to experts , it is an open source project. You can contribute and learn more.
+       {/* Apna IIT is an open source project. You can contribute to the project and help others to learn. */}
       </>
     ),
   },
   {
     title: "Focus on What Matters",
-    imgSrc: "img/02.png",
+    imgSrc: "img/focuss.png",
     description: (
       <>
         For beginners, it is difficult to find the right resources to learn from. Apna IIT helps you to focus on what matters.
@@ -23,10 +24,11 @@ const FeatureList = [
   },
   {
     title: "Open Source",
-    imgSrc: "img/03.png",
+    imgSrc: "img/OS.png",
     description: (
       <>
-       Apna IIT helps you to learn various concepts of computer science from scratch in documentation format.
+      Join a vibrant open-source community. Learn, collaborate, and grow together! Contribute to the project and help others to learn.
+       {/* Apna IIT helps you to learn various concepts of computer science from scratch in documentation format. */}
       </>
     ),
   },

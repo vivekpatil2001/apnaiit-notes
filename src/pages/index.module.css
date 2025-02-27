@@ -3,18 +3,17 @@
 }
 
 .cardContainer {
-  padding: 10px;
+  padding: 16px;
   width: 12px;
-  
 }
 
 .card {
   display: flex;
   justify-content: center;
-  padding: 10px;
+  padding: 16px;
   background: hsl(300, 11%, 98%);
   border: 1px solid #ddd;
-  border-radius: 8px;
+  border-radius:5px 18px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   text-align: center;
   transition: transform 0.2s ease-in-out;
@@ -23,21 +22,24 @@
 .card:hover {
   transform: translateY(-5px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  /* background-color: rgba(60, 179, 114, 0.359); */
 }
 
 .cardHeading {
+  text-decoration: none;
   font-size: 14px;
   color: #333;
  
 }
 
 .cardLogo {
-  width: 32px; /* Logo size */
-  height: 32px;/* Optional for rounded logos */
+  width: 35px; /* Logo size */
+  /* height: 32px;Optional for rounded logos */
 }
 
 .features {
-  /* padding: 12px 0; */
+  padding: 32px 0;
+  /* border: 2px solid red; */
   background-color: rgb(240, 226, 229);
 }
 
