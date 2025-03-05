@@ -11,6 +11,7 @@ sidebar_position: 5
 
 In HTML, heading tags are used to define headings on a webpage. They help in organizing content and improving readability. There are **six levels of headings**, ranging from `<h1>` (largest and most important) to `<h6>` (smallest and least important).
 
+
 ## Syntax:
 ```html
 <h1>This is an H1 heading</h1>
@@ -23,7 +24,6 @@ In HTML, heading tags are used to define headings on a webpage. They help in org
 
 ## Example Output:
 
-```
 
 
 
