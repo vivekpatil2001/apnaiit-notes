@@ -1,8 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 10
 ---
 
-# Introduction to inline block 
+# UPCOMING ❤️ Introduction to inline block 
 
   ###  What is Inline block?
   > Inline Block is an element of css , **that can you**
